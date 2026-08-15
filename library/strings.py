@@ -50,7 +50,6 @@ def numbers_to_letters(n: int) -> str:
         words.append(ones[n // 100])
         words.append("hundred")
         n %= 100
-
         if n:
             words.append("and")
 
@@ -59,7 +58,6 @@ def numbers_to_letters(n: int) -> str:
     elif n >= 20:
         words.append(tens[n // 10 * 10])
         n %= 10
-
         if n:
             words.append(ones[n])
     elif n > 0:
