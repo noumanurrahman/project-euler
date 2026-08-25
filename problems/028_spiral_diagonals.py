@@ -1,14 +1,8 @@
-diagonals = [1]
-l = 1
 n = 1001
+l = (n - 1)//2
+s = 1
 
-i = 1
+for i in range(1, l+1):
+    s += 16*(i**2) + 4*i + 4
 
-while i < n**2:
-    if i == (l+2)**2:
-        l += 2
-    d = i + l + 1
-    diagonals.append(d)
-    i=d
-
-print(diagonals, sum(diagonals))
+print(s)
