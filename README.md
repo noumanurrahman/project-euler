@@ -5,7 +5,7 @@ Notes + Solutions to Project Euler.
 This repo is mostly just where I keep track of my problem-solving progress. I take more detailed learning notes in my personal notebook, and only the problems I find especially interesting or tricky get a write-up in `notes` folder.
 
 ## Progress
-Solved: 26/1007 (2.58%)
+Solved: 28/1007 (2.78%)
 
 ## Language
 - Python
